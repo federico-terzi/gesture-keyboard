@@ -212,10 +212,8 @@ try:
 								print "DELETE_ALL_ENABLED = FALSE"
 						else: #Add the char to the sentence
 							sentence += char
-
 						#Prints the last char and the sentence
 						print "[{char}] -> {sentence}".format(char = char, sentence = sentence)
-
 						#Saves the output to a file
 						output_file = open("output.txt","w")
 						output_file.write(sentence)
@@ -230,7 +228,6 @@ try:
 			if TARGET_ALL_MODE:
 				current_test_index += 1
 				print_sentence_with_pointer(test_sentence, current_test_index)
-				
 		else:
 			#Append the current signal line in the recording
 			output.append(line)
