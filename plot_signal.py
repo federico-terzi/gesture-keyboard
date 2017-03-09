@@ -2,18 +2,26 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.preprocessing import scale
 from scipy.interpolate import interp1d
+import sys
 
 '''
 Author: Federico Terzi
-This is a work in progress, don't judge please :)
+
+This module simply plots a signal.
+
+You can specify the signal filename as a parameter in the terminal.
+
+This is a work in progress...
 '''
 
-filename = "a_sample_11.txt"
+filename = sys.argv[1]
 sample_size_fit = 50
 
 data_raw = [map(lambda x: int(x), i.split(" ")[1:-1]) for i in open(filename)]
 
-data = np.array(data_raw)
+data = np.array(data_raw).astype(float)
+
+print data
 
 data_norm = scale(data)
 
@@ -54,5 +62,5 @@ plt.plot(gz_stretch)
 
 plt.show()
 
-print data
-print data_norm
+# print data
+# print data_norm
