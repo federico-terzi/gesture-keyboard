@@ -1,7 +1,7 @@
 # gesture-keyboard
 Gesture keyboard is a library used to convert accelerometer data to a sequence of characters and sentences.
 
-If you want to implement or customize this yourself, check out the tutorial below.
+If you want to implement or customize this yourself, [check out the tutorial below.](#How-to-use-the-Library)
 
 ## Demostration Video
 [Click here to watch the demonstration video](https://www.youtube.com/watch?v=OjTNS2ZKqRc)
@@ -99,4 +99,4 @@ To check out if the model is working, open the terminal and write:
 python start.py port=<YOUR_SERIAL_PORT> predict
 ```
 
-Now you can make gestures and see the algorithm predicting the correct one ( most of the times ).
+Now you can make gestures and see the algorithm predicting the correct one, most of the times :)
