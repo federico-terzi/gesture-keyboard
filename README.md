@@ -1,7 +1,7 @@
 # gesture-keyboard
 Gesture keyboard is a library used to convert accelerometer data to a sequence of characters and sentences.
 
-If you want to implement or customize this yourself, [check out the tutorial below.](#How-to-use-the-Library)
+If you want to implement or customize this yourself, [check out the tutorial below.](#how-to-use-the-library)
 
 ## Demostration Video
 [Click here to watch the demonstration video](https://www.youtube.com/watch?v=OjTNS2ZKqRc)
