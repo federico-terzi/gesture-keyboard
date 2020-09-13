@@ -3,6 +3,11 @@ Gesture keyboard is a library used to convert accelerometer data to a sequence o
 
 If you want to implement or customize this yourself, [check out the tutorial below.](#how-to-use-the-library)
 
+# Warning: this repository has been archived
+It's been a long time since I've implemented this project, and unfortunately, I'm not in the condition of maintaining it anymore. Therefore, I decided to archive it. All the code will be available without limitations, and you can also fork the project to continue it if you want to do so.
+
+Thanks for all the interest! I wish you all the best :)
+
 ## Demostration Video
 [Click here to watch the demonstration video](https://www.youtube.com/watch?v=OjTNS2ZKqRc)
 
